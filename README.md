@@ -20,7 +20,7 @@ Clone of the famous Tank Stars game using LibGDX.
 2. Navigate to the project directory:
 
    ```bash
-   cd tank-stars
+   cd Tank-Stars/test
    ```
 
 3. Open the project in your preferred Java IDE.
@@ -29,7 +29,7 @@ Clone of the famous Tank Stars game using LibGDX.
 
 ## How to Start the Game
 
-1. After successfully building the project, locate `DesktopLauncher.java`.
+1. After successfully building the project, locate `DesktopLauncher.java` in the directory `desktop/src/com/badlogic/drop`.
 2. Run the `DesktopLauncher.java` to launch the game.
 3. The game will start with the start screen, providing options to start a new game, load a game, or exit.
 
@@ -79,6 +79,17 @@ Accessed by pressing the 'P' key during gameplay, the pause menu allows you to r
 ### Save Health
 
 A feature that allows you to save the current state of your tank's health and load it later.
+
+### Key Game Classes
+
+- **TankStars**: The main class that sets up the game.
+- **GameScreen**: Handles the main game display and logic.
+- **GameState**: Manages the game's state.
+- **MainMenu**: Displays the main menu.
+- **PauseMenu**: Displays the pause menu.
+- **SelectTanks**: Allows the player to select tanks.
+- **StartScreen**: The initial screen of the game.
+- **TankClass**: Represents the tank and its properties.
 
 
 
